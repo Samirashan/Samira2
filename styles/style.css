@@ -48,3 +48,25 @@ body {
     justify-content: space-between;
     padding: 1em 2em;
 }
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    background: url(../assets/pc-image.png) center no-repeat;
+    background-size: 65vh;
+}
+
+.text__inner {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    line-height: 6.5em;
+}   
+
+.intro-title {
+    font-size: 26vh;
+}
